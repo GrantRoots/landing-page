@@ -1,15 +1,20 @@
+body {
+    margin: 0px;
+}
+
 .header, .footer {
     background-color: #1F2937;
 }
 
 .header {
-
+    padding: 50px;
 }
 
 .top {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: -50px;
 }
 
 .logo {
@@ -17,10 +22,32 @@
     color: #F9FAF8;
 }
 
+.bottom {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+
+.bottom-text {
+    
+}
+
+.bottom-image {
+    height: 200px;
+    width: 600px;
+    border: solid white;
+    background-color: gray;
+}
+
 .hero-main {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .quote {
@@ -42,13 +69,21 @@ a {
 }
 
 .footer {
-    align-items: center;
     font-size: 18px;
     color: #E5E7EB;
     display: flex;
+    align-items: center;
+    flex-direction: column;
     justify-content: center;
+    height: 100px;
+    flex: auto;
 }
 
 button {
     background-color: #3882f6;
+    border-color: #3882f6;
+    color: #E5E7EB;
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
 }
