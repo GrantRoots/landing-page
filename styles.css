@@ -101,6 +101,7 @@ body {
     padding: 100px;
     color: #F9FAF8;
     align-items: center;
+    justify-content: space-around;
 }
 
 .call-hero {
